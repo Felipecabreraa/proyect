@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desafío 2 - Condiciones</title>
+  <!-- Actualizamos la ruta del archivo CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <h2>Desafío 2 - Condiciones</h2>
+
+  <!-- Requerimiento 1: Imagen con borde -->
+  <section>
+    <h3>1. Agregar y quitar borde en la imagen</h3>
+    <img id="image" src="./assets/img/Avión en avión.jpg" alt="Imagen de ejemplo">
+  </section>
+
+  <!-- Requerimiento 2: Pedir stickers -->
+  <section>
+    <h3>2. Selecciona tus stickers</h3>
+    <div>
+      <img src="./assets/img/Las Nubes.jpg" alt="Sticker 1">
+      <input type="number" id="sticker1" min="0" max="10" value="0">
+    </div>
+    <div>
+      <img src="./assets/img/images.png" alt="Sticker 2">
+      <input type="number" id="sticker2" min="0" max="10" value="0">
+    </div>
+    <div>
+      <img src="./assets/img/images (1).png" alt="Sticker 3">
+      <input type="number" id="sticker3" min="0" max="10" value="0">
+    </div>
+    <p id="total"></p>
+  </section>
+
+  <!-- Requerimiento 3: Verificación de contraseña -->
+  <section>
+    <h3>3. Verificación de contraseña</h3>
+    <select id="digit1">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+      <option value="7">7</option>
+      <option value="8">8</option>
+      <option value="9">9</option>
+    </select>
+    <select id="digit2">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+      <option value="7">7</option>
+      <option value="8">8</option>
+      <option value="9">9</option>
+    </select>
+    <select id="digit3">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+      <option value="7">7</option>
+      <option value="8">8</option>
+      <option value="9">9</option>
+    </select>
+
+    <button id="submit">Ingresar</button>
+    <p id="passwordResult"></p>
+  </section>
+
+  <!-- Actualizamos la ruta del archivo JS -->
+  <script src="assets/js/script.js"></script>
+</body>
+</html>

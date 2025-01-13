@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f9;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  section {
+    margin-bottom: 30px;
+  }
+  
+  img {
+    display: block;
+    margin-bottom: 10px;
+    max-width: 100%;
+  }
+  
+  input[type="number"] {
+    margin-top: 10px;
+    padding: 5px;
+    width: 50px;
+  }
+  
+  select {
+    padding: 5px;
+    margin: 5px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  p {
+    font-weight: bold;
+  }
+  
